@@ -1,0 +1,21 @@
+{
+  "name": "mobile1",
+  "authors": [
+    "7imon7ays"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "p5.js": "p5js#^0.5.0"
+  }
+}
