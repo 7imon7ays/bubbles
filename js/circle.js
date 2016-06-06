@@ -74,5 +74,5 @@ Circle.prototype._isColliding = function (other) {
   var distance = Math.sqrt(
     Math.pow(this.x - other.x, 2) + Math.pow(this.y - other.y, 2)
   );
-  return distance < this.radius + other.radius;
+  return distance < (this.radius + other.radius) / 2;
 };
